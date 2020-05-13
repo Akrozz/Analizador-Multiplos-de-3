@@ -41,13 +41,12 @@
             // LabIngrese
             // 
             this.LabIngrese.AutoSize = true;
-            this.LabIngrese.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.LabIngrese.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.LabIngrese.Location = new System.Drawing.Point(80, 9);
             this.LabIngrese.Name = "LabIngrese";
             this.LabIngrese.Size = new System.Drawing.Size(95, 13);
             this.LabIngrese.TabIndex = 0;
             this.LabIngrese.Text = "Ingrese un número";
-            this.LabIngrese.Click += new System.EventHandler(this.LabIngrese_Click);
             // 
             // tBIngNum
             // 
@@ -69,7 +68,7 @@
             // labSalida
             // 
             this.labSalida.AutoSize = true;
-            this.labSalida.Location = new System.Drawing.Point(35, 48);
+            this.labSalida.Location = new System.Drawing.Point(6, 38);
             this.labSalida.Name = "labSalida";
             this.labSalida.Size = new System.Drawing.Size(62, 13);
             this.labSalida.TabIndex = 3;
@@ -78,12 +77,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(46, 16);
+            this.label1.Location = new System.Drawing.Point(6, 7);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(42, 13);
             this.label1.TabIndex = 4;
             this.label1.Text = "Estatus";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // groupBox1
             // 
@@ -95,15 +93,13 @@
             this.groupBox1.Size = new System.Drawing.Size(149, 77);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Analizador_Multiplos_de_3.Properties.Resources._250px_Automata_finito;
-            this.ClientSize = new System.Drawing.Size(441, 203);
+            this.ClientSize = new System.Drawing.Size(549, 203);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Iniciar);
             this.Controls.Add(this.tBIngNum);

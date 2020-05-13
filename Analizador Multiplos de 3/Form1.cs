@@ -35,7 +35,7 @@ namespace Analizador_Multiplos_de_3
                     int ascii = (int)tBIngNum.Text[i];
                     if (ascii<48 || ascii>57)
                     {
-                        labSalida.Text = "Debe ingresar solo números enteros";
+                        labSalida.Text = "Debe ingresar solo\n números enteros";
                         return;
                     }
 
@@ -156,19 +156,6 @@ namespace Analizador_Multiplos_de_3
 
         }
 
-        private void LabIngrese_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }
