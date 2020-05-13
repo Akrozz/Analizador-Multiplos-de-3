@@ -41,9 +41,9 @@
             this.LabIngrese.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.LabIngrese.Location = new System.Drawing.Point(18, 16);
             this.LabIngrese.Name = "LabIngrese";
-            this.LabIngrese.Size = new System.Drawing.Size(106, 13);
+            this.LabIngrese.Size = new System.Drawing.Size(144, 13);
             this.LabIngrese.TabIndex = 0;
-            this.LabIngrese.Text = "Ingrese un en binario";
+            this.LabIngrese.Text = "Ingrese un número en binario";
             // 
             // tBIngNum
             // 
