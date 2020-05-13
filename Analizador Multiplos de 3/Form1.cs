@@ -16,5 +16,28 @@ namespace Analizador_Multiplos_de_3
         {
             InitializeComponent();
         }
+
+        private void Iniciar_Click(object sender, EventArgs e)
+        {
+            if(tBIngNum.Text == "")
+            {
+                labSalida.Text = "Debe ingresar un numero";
+                return;
+            }
+            else
+            {
+                for(int i=0; i<=tBIngNum.Text.Length;i++)
+                {
+                    int ascii = (int)tBIngNum.Text[i];
+                    if (ascii<48 || ascii>57)
+                    {
+                        labSalida.Text = "Debe ingresar un numero";
+                        return;
+                    }    
+
+                }
+            }
+
+        }
     }
 }
