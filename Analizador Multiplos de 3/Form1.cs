@@ -155,5 +155,15 @@ namespace Analizador_Multiplos_de_3
             return false;
 
         }
+
+        private void LabIngrese_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
