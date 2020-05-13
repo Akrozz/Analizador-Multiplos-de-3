@@ -165,5 +165,10 @@ namespace Analizador_Multiplos_de_3
         {
 
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

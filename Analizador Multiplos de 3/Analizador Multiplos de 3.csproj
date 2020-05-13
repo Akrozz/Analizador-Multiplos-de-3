@@ -81,5 +81,20 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-finite-state-machine-nondeterministic-finite-autom-finitestate-machine-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\250px-DFAexample.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Automata 3 binario.jff.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Automata 3 binario.jff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\250px-Automata_finito.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

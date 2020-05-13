@@ -59,5 +59,55 @@ namespace Analizador_Multiplos_de_3.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _250px_Automata_finito {
+            get {
+                object obj = ResourceManager.GetObject("250px-Automata_finito", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _250px_DFAexample_svg {
+            get {
+                object obj = ResourceManager.GetObject("250px-DFAexample.svg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Automata_3_binario_jff {
+            get {
+                object obj = ResourceManager.GetObject("Automata 3 binario.jff", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Automata_3_binario1 {
+            get {
+                object obj = ResourceManager.GetObject("Automata 3 binario1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_finite_state_machine_nondeterministic_finite_autom_finitestate_machine_ {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-finite-state-machine-nondeterministic-finite-autom-finitestate-machine-", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
