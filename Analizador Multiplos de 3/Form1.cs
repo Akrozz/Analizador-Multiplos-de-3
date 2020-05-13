@@ -38,15 +38,16 @@ namespace Analizador_Multiplos_de_3
                         labSalida.Text = "Debe ingresar solo números enteros";
                         return;
                     }
-                    int dec = int.Parse(tBIngNum.Text);
-                    string binario = enteroBinario(dec);
-                    bool aceptacion = Automata(binario);
-                    if (aceptacion)
-                        labSalida.Text = "Es multiplo de 3";
-                    else
-                        labSalida.Text = "No es multiplo de 3";
+
 
                 }
+                int dec = int.Parse(tBIngNum.Text);
+                string binario = enteroBinario(dec);
+                bool aceptacion = Automata(binario);
+                if (aceptacion)
+                    labSalida.Text = "Es multiplo de 3";
+                else
+                    labSalida.Text = "No es multiplo de 3";
             }
 
         }
@@ -80,14 +81,13 @@ namespace Analizador_Multiplos_de_3
                 char aux = entrada[i];
                 if (i == entrada.Length-1)
                     ultima = true;
+
+
                 switch (estado)
                 {
                     case 0:
                         {
-                            if(ultima==true)
-                            {
-                                return true;
-                            }
+
                             if (aux == '0')
                             {
                                 estado = 0;
@@ -102,10 +102,7 @@ namespace Analizador_Multiplos_de_3
                        
                     case 1:
                         {
-                            if (ultima == true)
-                            {
-                                return false;
-                            }
+
                             if (aux == '0')
                             {
                                 estado = 3;
@@ -120,10 +117,7 @@ namespace Analizador_Multiplos_de_3
 
                     case 2:
                         {
-                            if (ultima == true)
-                            {
-                                return false;
-                            }
+
 
                             if (aux == '0')
                             {
@@ -139,10 +133,7 @@ namespace Analizador_Multiplos_de_3
 
                     case 3:
                         {
-                            if (ultima == true)
-                            {
-                                return false;
-                            }
+
                             if (aux == '0')
                             {
                                 estado = 1;
@@ -158,6 +149,8 @@ namespace Analizador_Multiplos_de_3
                     default:
                         return false;
                 }
+                if (ultima && estado == 0)
+                    return true;
             }
             return false;
 
